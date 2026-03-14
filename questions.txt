@@ -1,0 +1,110 @@
+1.	Use Gemini 1.5 Flash and explain Machine Learning in simple terms.
+2.	Use Gemini 1.5 Pro to summarize a given paragraph in 3–4 sentences.
+3.	Use GPT-4o to generate a short poem about Artificial Intelligence.
+4.	Use GPT-3.5 Turbo to create 5 SQL interview questions for beginners.
+5.	Use Claude 3 Haiku to translate a sentence from English to Spanish.
+6.	Use Claude 3 Sonnet to generate Python code for a simple calculator.
+7.	Use LLaMA 3 to explain Blockchain technology in simple terms.
+8.	Use Mixtral 8x7B to generate a basic HTML webpage for a personal portfolio.
+9.	Use Gemini 1.5 Flash to create a math quiz with 5 questions.
+10.	Use GPT-4o to explain Cloud Computing and its types.
+11.	Use LLaMA 3 to generate a chatbot greeting message for a customer support system.
+12.	Use Mixtral 8x7B to generate a product description for a smartwatch.
+13.	Use Claude 3 Haiku to create a professional job application email template.
+14.	Use GPT-4o to explain AI ethics and responsible AI development.
+15.	Use Gemini 1.5 Flash to generate a LinkedIn post about learning Generative AI.
+16.	Use LLaMA 3 to explain Data Structures and their importance in programming.
+17.	Use Mixtral 8x7B to generate Java code to check whether a number is prime or not.
+18.	Use Gemini 1.5 Pro to generate 3 AI-based startup business ideas.
+19.	Use Claude 3 Sonnet to explain Deep Learning and how it differs from Machine Learning.
+20.	Use GPT-3.5 Turbo to generate answers for common HR interview questions.
+
+
+
+3.	Create a static PromptTemplate using Claude 3 Haiku to generate 3 tips for improving time management for students.
+4.	Create a static PromptTemplate using LLaMA 3 to explain what APIs are and why they are used in software development.
+5.	Create a static PromptTemplate using Gemini 1.5 Pro to summarize the benefits of cloud storage in 4 sentences.
+6.	Create a static PromptTemplate using Mixtral 8x7B to generate a simple HTML page for a tech blog homepage.
+7.	Create a static PromptTemplate using Claude 3 Sonnet to generate Python code to calculate the factorial of a number.
+8.	Create a static PromptTemplate using GPT-3.5 Turbo to generate 5 interview questions for a Python developer.
+9.	Create a static PromptTemplate using LLaMA 3 to explain the difference between frontend and backend development.
+10.	Create a static PromptTemplate using Gemini 1.5 Flash to generate 5 general knowledge quiz questions.
+
+
+
+
+III.	Output Parser Practice
+BASIC LEVEL (1–7)
+1.	Use GPT-4o to generate 5 popular programming languages. Create a prompt template for programming languages and parse the output using CommaSeparatedListOutputParser.
+2.	Use Gemini 1.5 Flash to generate 3 AI startup ideas. Create a prompt template for AI business ideas and parse the output into a Python list.
+3.	Use GPT-3.5 Turbo to generate 5 Python interview questions. Create a prompt template for technical interviews and parse the output using NumberedListOutputParser.
+4.	Use Claude 3 Haiku to generate 3 smartwatch product names. Create a prompt template for product branding and parse the output using CommaSeparatedListOutputParser.
+5.	Use LLaMA 3 to generate 3 sci-fi movie recommendations. Create a prompt template about movies and parse the output using CommaSeparatedListOutputParser.
+6.	Use Mixtral 8x7B to generate 3 Machine Learning book titles. Create a prompt template for ML books and parse the output into a Python list.
+7.	Use Gemini 1.5 Pro to generate 5 SQL interview questions. Create a prompt template for database interviews and parse the output using NumberedListOutputParser.
+8.	________________________________________
+INTERMEDIATE LEVEL (8–14)
+9.	Use GPT-4o to generate 3 advantages of cloud computing. Create a prompt template about cloud technology and parse the output using ListOutputParser.
+10.	Use Gemini 1.5 Flash to generate 3 programming tips for beginners. Create a prompt template about coding best practices and parse the output using CommaSeparatedListOutputParser.
+11.	Use Claude 3 Sonnet to generate 3 data science tools. Create a prompt template about analytics tools and parse the output using CommaSeparatedListOutputParser.
+12.	Use GPT-3.5 Turbo to generate a student profile (name, age, course). Create a prompt template about student data and parse the output into a Python dictionary using StructuredOutputParser.
+13.	Use LLaMA 3 to generate 3 startup ideas with descriptions. Create a prompt template for entrepreneurship ideas and parse the output into JSON using StructuredOutputParser.
+14.	Use Mixtral 8x7B to generate a product with name, price, and category. Create a prompt template for e-commerce products and parse the output into JSON.
+15.	Use Gemini 1.5 Pro to generate 3 countries with their capitals. Create a prompt template about geography and parse the output into JSON.
+________________________________________
+ADVANCED LEVEL (15–20)
+16.	Use GPT-4o to generate employee details (name, role, salary). Create a prompt template for HR data and parse the output into a Python dictionary.
+17.	Use Claude 3 Sonnet to generate 3 interview questions with answers. Create a prompt template for interviews and parse the output into JSON.
+18.	Use LLaMA 3 to generate 3 programming languages with their creators. Create a prompt template about programming history and parse the output into JSON.
+19.	Use Mixtral 8x7B to generate 3 companies with their industry. Create a prompt template about business organizations and parse the output into JSON.
+20.	Use Gemini 1.5 Flash to generate 3 courses with duration and difficulty level. Create a prompt template for online learning and parse the output into JSON.
+21.	Use GPT-4o to generate 3 technologies with their use cases. Create a prompt template about emerging technologies and parse the output into JSON.
+
+
+RunnablePassthrough (20 Questions with Different Models)
+1.	Build an AI pipeline using RunnablePassthrough + structured PromptTemplate + GPT-4o that takes a dataset topic and returns ML tasks and evaluation metrics.
+2.	Create a system using RunnablePassthrough + instruction PromptTemplate + GPT-4o Mini that takes a career goal and returns required skills and a learning roadmap.
+3.	Design a trend analyzer using RunnablePassthrough + context PromptTemplate + Claude 3 Haiku that takes a technology trend and returns benefits and future applications.
+4.	Build a programming assistant using RunnablePassthrough + role-based PromptTemplate + Claude 3 Sonnet that takes a programming language and returns key features and real-world applications.
+5.	Create a startup evaluator using RunnablePassthrough + business PromptTemplate + Claude 3 Opus that takes a startup idea and returns target users and monetization strategy.
+6.	Build an ML explainer using RunnablePassthrough + educational PromptTemplate + Gemini 1.5 Pro that takes an ML algorithm and returns advantages and limitations.
+7.	Create a cloud advisor using RunnablePassthrough + technical PromptTemplate + Gemini 1.5 Flash that takes a cloud platform and returns services and industry use cases.
+8.	Design a DevOps assistant using RunnablePassthrough + tool explanation PromptTemplate + Mistral Large that takes a DevOps tool and returns its purpose and advantages.
+9.	Build an AI research helper using RunnablePassthrough + research PromptTemplate + Mixtral 8x7B that takes a deep learning model and returns applications and limitations.
+10.	Create a data visualization assistant using RunnablePassthrough + analyst PromptTemplate + Llama 3 70B that takes a visualization tool and returns advantages and business use cases.
+11.	Build a cybersecurity advisor using RunnablePassthrough + security PromptTemplate + Llama 3 8B that takes a cyber threat and returns risks and prevention methods.
+12.	Create a mobile product generator using RunnablePassthrough + product design PromptTemplate + Command R+ that takes an app category and returns features and monetization models.
+13.	Build an AI project generator using RunnablePassthrough + innovation PromptTemplate + Command R that takes an AI domain and returns project ideas and datasets.
+14.	Create a research topic generator using RunnablePassthrough + academic PromptTemplate + Falcon 180B that takes a research field and returns topics and methodology.
+15.	Build an interview preparation AI using RunnablePassthrough + career PromptTemplate + DBRX that takes a job role and returns interview topics and preparation strategy.
+16.	Create a business AI assistant using RunnablePassthrough + problem-solving PromptTemplate + Yi 34B that takes a business problem and returns AI solutions and expected impact.
+17.	Build a dataset recommender using RunnablePassthrough + ML PromptTemplate + Qwen2 72B that takes a project domain and returns dataset sources and ML tasks.
+18.	Create a research gap analyzer using RunnablePassthrough + academic PromptTemplate + DeepSeek LLM that takes a research topic and returns challenges and future work.
+19.	Build a framework advisor using RunnablePassthrough + developer PromptTemplate + DeepSeek Coder that takes a programming language and returns frameworks and use cases.
+20.	Create a data engineering assistant using RunnablePassthrough + engineering PromptTemplate + Code Llama that takes a data engineering tool and returns features and industry applications.
+ 
+
+
+ Memory Handling (20 Questions with Different Models)
+1.	Build a chatbot using ChatPromptTemplate + conversation history + GPT-4o that remembers the user’s name and answers when asked later.
+2.	Create a personal assistant using chat history + GPT-4o Mini that remembers the user’s favorite programming language.
+3.	Build a learning assistant using conversation memory + Claude 3 Haiku that remembers the user’s study domain.
+4.	Create a project mentor using chat history + Claude 3 Sonnet that remembers the user’s project idea and later suggests improvements.
+5.	Build a career assistant using conversation buffer memory + Claude 3 Opus that remembers the user’s career goal.
+6.	Create a research assistant using chat history + Gemini 1.5 Pro that remembers the research topic and suggests datasets later.
+7.	Build a coding mentor using conversation memory + Gemini 1.5 Flash that remembers the user’s preferred programming language.
+8.	Create a startup advisor using chat history + Mixtral 8x7B that remembers the startup idea.
+9.	Build an AI mentor using conversation memory + Llama 3 70B that remembers the user’s job role.
+10.	Create a cloud assistant using chat history + Command R+ that remembers the preferred cloud platform.
+11.	Build a dataset assistant using conversation memory + Qwen2 72B that remembers dataset topics.
+12.	Create a developer assistant using chat history + DeepSeek Coder that remembers the user’s tech stack.
+13.	Build a data science mentor using conversation memory + Falcon 180B that remembers project goals.
+14.	Create a study planner using chat history + DBRX that remembers learning timelines.
+15.	Build a coding assistant using conversation memory + Code Llama that remembers previous coding questions.
+16.	Create a research mentor using chat history + DeepSeek LLM that remembers research interests.
+17.	Build a startup mentor using conversation memory + Yi 34B that remembers business ideas.
+18.	Create a learning assistant using chat history + Gemma 7B that remembers study topics.
+19.	Build a developer chatbot using conversation memory + Mistral Small that remembers the user’s coding language.
+20.	Create a career mentor using chat history + Phi 3 that remembers the target job role.
+
+
