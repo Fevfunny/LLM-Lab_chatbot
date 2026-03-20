@@ -1,4 +1,4 @@
-# 6.	Use gpt-4o-mini to generate Python code for a simple calculator.
+# 6. Use gpt-4o-mini to generate Python code for a simple calculator.
 
 from langchain_core.prompts import PromptTemplate
 from langchain_openai import ChatOpenAI
